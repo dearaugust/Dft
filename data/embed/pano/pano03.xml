@@ -1,0 +1,18 @@
+<krpano>
+
+		<view hlookat="0" vlookat="0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="%SWFPATH%/data/panos/3.tiles/preview.jpg" />
+
+		<image>
+			<cube url="%SWFPATH%/data/panos/3.tiles/pano_%s.jpg" />
+			<mobile>
+				<cube url="%SWFPATH%/data/panos/3.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<hotspot name="spot5" style="hotspot_ani_white" ath="50.323188" atv="28.14137" distorted="true" rx="-6.5" ry="-7.75" rz="-2.830798" width="64" height="64" scale="1.874044" onhover="showtext('大丰堂文化传播有限公司',hotspottextstyle);" onclick="loadscene(scene_1, null, MERGE, BLEND(1));" />
+
+		<!-- <layer name="layer09" alpha="0" keep="true" url="%SWFPATH%/data/embed/skin/1.png" align="center" visible="false" onclick="tween(alpha,0);delayedcall(0.5,set(visible,false))" /> -->
+
+</krpano>

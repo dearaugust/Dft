@@ -1,0 +1,20 @@
+<krpano>
+
+		<view hlookat="0" vlookat="0" fovtype="MFOV" fov="120" maxpixelzoom="2.0" fovmin="70" fovmax="140" limitview="auto" />
+
+		<preview url="%SWFPATH%/data/panos/2.tiles/preview.jpg" />
+
+		<image>
+			<cube url="%SWFPATH%/data/panos/2.tiles/pano_%s.jpg" />
+			<mobile>
+				<cube url="%SWFPATH%/data/panos/2.tiles/mobile_%s.jpg" />
+			</mobile>
+		</image>
+
+		<hotspot name="spot3" style="hotspot_ani_white" ath="174.904622" atv="23.412467" distorted="true" rx="-8.0" ry="-13.5" rz="-4.838219" width="64" height="64" scale="1.647342"  onhover="showtext('大丰堂文化传播有限公司',hotspottextstyle);" onclick="loadscene(scene_1, null, MERGE, BLEND(1));" />
+
+		<hotspot name="spot4" style="hotspot_ani_white" ath="93.572564" atv="18.89728" distorted="true" rx="-8.0" ry="-13.5" rz="1.183564" width="64" height="64" scale="1.647342" onhover="showtext('画册设计展示区',hotspottextstyle);" onclick="loadscene(scene_1, null, MERGE, BLEND(1));" />
+
+		<!-- <hotspot name="spot4" style="hotspot_ani_white" ath="127.156373" atv="12.92338" distorted="true" rx="2.25" ry="-46.75" rz="48.533338" width="64" height="64" scale="1.250197" onhover="showtext('国学馆',hotspottextstyle);" onclick="loadscene(scene_3, null, MERGE, BLEND(1));" /> -->
+
+</krpano>
